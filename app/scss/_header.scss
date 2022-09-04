@@ -1,0 +1,76 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin: auto auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+
+    .logo{
+        padding-top: 1rem;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .theme-nav{
+        display: flex;
+        
+        a{
+          
+        }
+
+        &__text{
+            display: flex;
+            align-items: flex-end;
+            padding-right: 1rem;
+            
+            
+           
+    
+        }
+        &__choices{
+        
+
+        }
+        &__number{
+            display: flex;
+            justify-content: space-around;
+
+
+        }
+        &__button{
+            width: 6rem;
+            display: flex;
+            justify-content: space-between;
+            padding: 0.3rem 0.5rem;
+            background-color: hsl(223, 31%, 20%);
+            border-radius: 2rem;
+
+        }
+        &__tchoice1{
+            width: 1.2rem;
+            height: 1.2rem;
+            background-color: orangered;
+            border-radius: 50%;
+
+        }
+        &__tchoice2{
+            width: 1.2rem;
+            height: 1.2rem;
+            background-color: rgb(0, 255, 55);
+            border-radius: 50%;
+
+        }
+        &__tchoice3{
+            width: 1.2rem;
+            height: 1.2rem;
+            background-color: rgb(89, 0, 255);
+            border-radius: 50%;
+
+        }
+
+    }
+}
