@@ -22,7 +22,7 @@
 </head>
 
 
-<body class="theme1">
+<body id="body" class="theme1">
 
   <header class="header">
     <div class="logo">
@@ -42,13 +42,13 @@
         </div>
 
         <div class="theme-nav__button button">
-          <a href="">
+          <a id="choice1" href="#">
             <div class="theme-nav__tchoice1 tchoice1"></div>
           </a>
-          <a href="">
+          <a id="choice2" href="#">
             <div class="theme-nav__tchoice2 tchoice2"></div>
           </a>
-          <a href="">
+          <a id="choice3" href="#">
             <div class="theme-nav__tchoice3 tchoice3"></div>
           </a>
         </div>
@@ -69,7 +69,7 @@
     <div class="keypad__key">7</div>
     <div class="keypad__key">8</div>
     <div class="keypad__key">9</div>
-    <div class="keypad__key" id="#del">Del</div>
+    <div class="keypad__key-del" id="#del">DEL</div>
     <div class="keypad__key">4</div>
     <div class="keypad__key">5</div>
     <div class="keypad__key">6</div>
@@ -82,8 +82,8 @@
     <div class="keypad__key">0</div>
     <div class="keypad__key">/</div>
     <div class="keypad__key">x</div>
-    <div class="keypad__key grid-col-span2 reset">Reset</div>
-    <div class="keypad__key grid-col-span2 equal">=</div>
+    <div class="keypad__key-reset grid-col-span2">RESET</div>
+    <div class="keypad__key-equal grid-col-span2">=</div>
   </section>
 
 
@@ -92,5 +92,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script src="app/js/app.js"></script>
 </body>
 </html>
