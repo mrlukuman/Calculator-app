@@ -5,8 +5,210 @@
 }
 
 body{
-    background-color: hsl(222, 26%, 31%);
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
     color: white;
 }
+
+.grid-col-span2{
+    grid-column: span 2;
+}
+
+
+// THEME 1
+.theme1{
+    background-color: hsl(222, 26%, 31%);
+    color: white;
+
+    .number{
+            display: flex;
+            justify-content: space-around;
+            font-size: .8rem;
+            padding-bottom: 0.325rem;
+    }
+
+    .button{
+            width: 4.5rem;
+            display: flex;
+            justify-content: space-between;
+            padding: 0.3rem 0.5rem;
+            background-color: hsl(223, 31%, 20%);
+            border-radius: 50px;
+    }
+
+    .text{
+            display: flex;
+            align-items: flex-end;
+            font-size: 0.8rem;
+            padding-right: 1.875rem;
+    }
+
+    .tchoice1,
+    .tchoice2,
+    .tchoice3 {
+            width: 0.875rem;
+            height: 0.875rem;
+            background-color: orangered;
+            border-radius: 50%;
+    }
+
+    .tchoice2, .tchoice3{
+        visibility: hidden;
+    }
+
+    .screen{
+        text-align: left;
+        margin: auto auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: .85rem;
+        padding-bottom: .85rem;
+        width: 330px;
+        height: 80px;
+        background-color: hsl(224, 36%, 15%);
+        border-radius: 10px;
+        margin-bottom: 40px;
+    
+        &__input{
+            font-size: 3rem;
+            text-align: right;
+        }
+    
+    }
+
+    .keypad{
+        display:grid;
+        gap: 0.8rem;
+        grid-template-columns: repeat(4, 1fr);
+        margin: auto auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1.85rem;
+        padding-bottom: 1.85rem;
+        width: 20.525rem;
+        background-color: hsl(223, 31%, 20%);
+        margin-bottom: 30px;
+        border-radius: 10px;
+    
+    
+        &__key{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1.2rem;
+            color: hsl(221, 14%, 31%);
+            border-radius: 10px;
+            background-color: hsl(45, 7%, 89%);
+            box-shadow: 0px 5px  0px white;
+
+
+            &:hover{
+                background-color:white;
+                box-shadow: 0px 5px  0px hsl(45, 7%, 89%);
+            }
+    
+    
+        }
+    }
+
+}
+
+// THEME 2
+
+.theme2{
+    background-color: hsl(0, 0%, 90%);
+    color: black;
+
+    .number{
+            display: flex;
+            justify-content: space-around;
+            font-size: .8rem;
+            padding-bottom: 0.325rem;
+    }
+
+    .button{
+            width: 4.5rem;
+            display: flex;
+            justify-content: space-between;
+            padding: 0.3rem 0.5rem;
+            background-color: hsl(0, 5%, 81%);
+            border-radius: 50px;
+    }
+
+    .text{
+            display: flex;
+            align-items: flex-end;
+            font-size: 0.8rem;
+            padding-right: 1.875rem;
+    }
+
+    .tchoice1,
+    .tchoice2,
+    .tchoice3 {
+            width: 0.875rem;
+            height: 0.875rem;
+            background-color: orangered;
+            border-radius: 50%;
+    }
+
+    .tchoice1, .tchoice3{
+        visibility: hidden;
+    }
+
+    .screen{
+        text-align: left;
+        margin: auto auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: .85rem;
+        padding-bottom: .85rem;
+        width: 330px;
+        height: 80px;
+        background-color: hsl(0, 0%, 93%);
+        border-radius: 10px;
+        margin-bottom: 40px;
+    
+        &__input{
+            font-size: 3rem;
+            text-align: right;
+        }
+    
+    }
+
+    .keypad{
+        display:grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(4, 1fr);
+        margin: auto auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 1.85rem;
+        padding-bottom: 1.85rem;
+        width: 20.525rem;
+        background-color: hsl(0, 5%, 81%);
+        margin-bottom: 30px;
+        border-radius: 10px;
+    
+    
+        &__key{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1.5rem;
+            color: hsl(221, 14%, 31%);
+            background-color: hsl(45, 7%, 89%);
+            border-radius: 10px;
+            box-shadow: 0px 5px 0px hsl(35, 11%, 61%)
+            ;
+
+            &:hover{
+                background-color:white;
+                box-shadow: 0px 5px  0px hsl(45, 7%, 89%);
+            }
+    
+        }
+    }
+
+
+}
+

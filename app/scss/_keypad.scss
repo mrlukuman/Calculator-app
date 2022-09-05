@@ -1,31 +1,31 @@
-.keypad{
-    display:grid;
-    gap: 0.5rem;
-    grid-template-columns: repeat(4, 1fr);
-    margin: auto auto;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 1.85rem;
-    padding-bottom: 1.85rem;
-    width: 20.525rem;
-    background-color: hsl(223, 31%, 20%);
-    margin-bottom: 30px;
-    border-radius: 10px;
+// .keypad{
+//     display:grid;
+//     gap: 0.5rem;
+//     grid-template-columns: repeat(4, 1fr);
+//     margin: auto auto;
+//     padding-left: 1.5rem;
+//     padding-right: 1.5rem;
+//     padding-top: 1.85rem;
+//     padding-bottom: 1.85rem;
+//     width: 20.525rem;
+//     background-color: hsl(223, 31%, 20%);
+//     margin-bottom: 30px;
+//     border-radius: 10px;
 
 
-    &__key{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1.5rem;
-        color: hsl(221, 14%, 31%);
-        background-color: hsl(45, 7%, 89%);
-        border-radius: 10px;
+//     &__key{
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         padding: 1.5rem;
+//         color: hsl(221, 14%, 31%);
+//         background-color: hsl(45, 7%, 89%);
+//         border-radius: 10px;
 
 
-    }
-}
+//     }
+// }
 
-.grid-col-span2{
-    grid-column: span 2;
-}
+// .grid-col-span2{
+//     grid-column: span 2;
+// }
